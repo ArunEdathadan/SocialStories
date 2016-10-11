@@ -1,18 +1,19 @@
-namespace SocialStories.Migrations
+namespace SocialStories.Migrations.ContextB
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<SocialStories.Models.ApplicationDbContext>
+    internal sealed class ConfigB : DbMigrationsConfiguration<SocialStories.Models.SocialLifeDbContext>
     {
-        public Configuration()
+        public ConfigB()
         {
             AutomaticMigrationsEnabled = false;
+            MigrationsDirectory = @"Migrations\ContextB";
         }
 
-        protected override void Seed(SocialStories.Models.ApplicationDbContext context)
+        protected override void Seed(SocialStories.Models.SocialLifeDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

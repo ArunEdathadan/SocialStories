@@ -1,9 +1,9 @@
-namespace SocialStories.Migrations
+namespace SocialStories.Migrations.ContextA
 {
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class _2 : DbMigration
+    public partial class _1 : DbMigration
     {
         public override void Up()
         {
