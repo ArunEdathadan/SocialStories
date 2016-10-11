@@ -23,6 +23,7 @@ namespace SocialStories.Models
       public int EmotionID { get; set; }
       public int RevisionHistoryID { get; set; }
       public DateTime CreatedOn { get; set; }
+     
    }
 
    public partial class SocialLifeDbContext : DbContext
